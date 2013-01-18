@@ -45,5 +45,5 @@ source ~/.bashrc
 ```
 
 
-SVN repository and naming conention will go here
+SVN repository and naming convention will go here
 ---
