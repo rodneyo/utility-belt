@@ -2,8 +2,10 @@ Bashrc Functions
 ---
 
 Since I have to use SVN sometimes I get tired of typing:
+```bash
 svn copy [LONG_ASS_URL_TO_SVN_REPO]/trunkorbranch
 [LONG_ASS_URL_TO_SVN_REPO]/branchortag
+```
 
 So, I created these bashrc functions to help me quickly create release
 branches and tags from a svn repo.  Note:  These scripts follow a
@@ -12,6 +14,6 @@ and tag revs.  If you don't follow the convention they probably won't be of any 
 
 
 One you add them don't forget to 
-'''bash
+```bash
 source ~/.bashrc
-'''
+```
