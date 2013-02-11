@@ -1,0 +1,22 @@
+#!/bin/bash
+##########################################
+# Makes the all so soothing Starship     #
+# enterprise warp core white noise       #
+# useful for drowning out office noise   #
+# and other annoying carbon units        #
+##########################################
+
+
+case $1 in 
+  w1)
+    play -n -c1 synth whitenoise band -n 200 20 band -n 50 20 gain +25 fade h 1 864000 1
+    ;;
+  w2)
+    play -n -c1 synth whitenoise band -n 100 20 band -n 50 20 gain +25 fade h 1 864000 1
+    ;;
+  q)
+    killall play
+    ;;
+  *)
+    play -n -c1 synth whitenoise band -n 100 20 band -n 50 20 gain +25 fade h 1 864000 1
+esac
