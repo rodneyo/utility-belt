@@ -4,9 +4,9 @@
 # release_branch.[major rev 1-9].[minor rev 0-9]
 # release_tag.[major rev 1-9].[tag number 1-9]
 #
-# The function will find the lastest created tag, parse the rev number and increase the [tag number]
-# by 1.  Information is displayed detailing the release branch the tag will be cut from, 
-# the current tag, and finally the new tag.  
+# The function will find the latest created tag, parse the rev number and increase the [tag number]
+# by 1.  Information is displayed detailing the release branch the tag will be cut from,
+# the current tag, and finally the new tag.
 # You will be prompted to accept the tag or allowed to exit.
 function svnct() {
   if [[ -z $1 ]]; then
