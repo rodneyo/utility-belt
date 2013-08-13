@@ -17,7 +17,7 @@ from warnings import filterwarnings
 
 filterwarnings('ignore', category = MySQLdb.Warning);
 
-url = "ldap://activedirectory.stonemor.com:389/"
+url = "ldap://[some-ldap-directory]:389/"
 base = "dc=stonemor,dc=com"
 search_filter = '(&(objectClass=User)(objectCategory=Person)(!(userAccountControl:1.2.840.113556.1.4.803:=2)))'
 page_size = 100
