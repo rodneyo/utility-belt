@@ -4,7 +4,7 @@
 # to network share
 #########################
 
-MAILTO='roliv@stonemor.com'
+MAILTO='[email addr]'
 INCLUDE_FILES_LIST=$HOME"/rsync_included_files"
 NETWORK_BACKUP_LOCATION='/network_shares/programmer/zBackups/ROLIV'
 NETWORK_BACKUP_SHARE='//hercules/programmer'
