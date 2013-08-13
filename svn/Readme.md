@@ -28,18 +28,18 @@ svnct [REPO] "commit message"
 Assuming the convention below was followed for creating your svn repo and the naming of
 your tags and branches...
 
-svncb will ask you want to create a major or minor branch from trunk.
+svncb will ask you if you want to create a major or minor branch from trunk.
 Choosing a major branch will create a new release_branch in your branches
-directory using the major number of the last release branch incremented
+directory. It uses the major number of the last release branch incremented
 by 1.  So if the previous release branch was release_branch.1.0, a new
-branch is created as: release_branch.2.0
+branch is created as release_branch.2.0
 
 
 svnct will cut a new tag from the most recent release_branch and
-increment the tag version by 1.  It assumes each release tag is a
+increment the tag version by 1.  It assumes each release tag is an
 update to the release_branch it was cut from.  So release_tag.1.1 becomes release_tag.1.2
 
-One you add them don't forget to 
+Once you add them don't forget to 
 ```bash
 source ~/.bashrc
 ```
