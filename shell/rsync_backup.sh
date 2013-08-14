@@ -4,11 +4,8 @@
 # to network share
 #########################
 
-MAILTO='[email addr]'
-INCLUDE_FILES_LIST=$HOME"/rsync_included_files"
-NETWORK_BACKUP_LOCATION='/network_shares/programmer/zBackups/ROLIV'
-NETWORK_BACKUP_SHARE='//hercules/programmer'
-LAPTOP_MOUNT_POINT='/network_shares/programmer'
+source ./local.config
+
 RSYNC=$(which rsync)
 MUTT=$(which mutt)
 RC=0
