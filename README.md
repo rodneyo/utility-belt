@@ -3,6 +3,22 @@ utility-belt
 
 Various scripts, one-liners, basrc functions etc that I've written, found, plagiarize or otherwise found useful
 
+Svn
+--------
+A few wrapper shell scripts to make it eaiser for me to create different branches,tags and 
+revisions.  More are forthcoming... unless I get the team to move :sparkles: git :sparkles:
+
+Shell
+--------
+Some bash scripts.
+ 1.  my laptop rsync backup
+ 1.  remove old kernels that always seem to pile up2
+
+Programs
+--------
+1. ad_utilities.py - generic program that can be changed to output various active directory data
+
+
 Warpcore
 --------
 I love solving problems with code, but sometimes that can be hard when you
