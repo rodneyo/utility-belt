@@ -1,0 +1,1 @@
+30 12 * * * /home/roliv/Sites/utility-belt/shell/rsync_backup.sh
